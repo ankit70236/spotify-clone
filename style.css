@@ -16,6 +16,9 @@ body{
     justify-content: space-between;
     position: sticky;
 }
+.header a{
+    text-decoration: none;
+}
 .header1{
     padding: 10px 30px;
     background-color: transparent;
@@ -39,17 +42,26 @@ body{
     margin-right: 20px;
     
 }
+.icon a{
+    color: #ffffff;
+}
 .icon1{
     width: 400px;
     height: 40px;
-    background-color: #1F1F1F;
+    background-color: #0B0B0B;
     font-size: 25px;
     border-radius: 30px;
     color: white;
-    padding: 5px;
+    padding: 6px;
     margin-top: 15px;
     display: flex;
     
+}
+.icon1:hover{
+    background-color: #212121;
+    border: 1px solid #292929;
+    border-radius: 30px;
+    padding: 5px;
 }
 .icon1 i{
     margin-right: 10px;
@@ -76,6 +88,11 @@ body{
     font-size: 18px;
     margin-right: 40px;
     margin-top: 20px;
+    width: 70px;
+}
+.signup p:hover{
+    color: #F1FFFF;
+    font-weight: 700;
 }
 .signup button{
     width: 100px;
@@ -83,6 +100,9 @@ body{
     margin-top: 10px;
     border-radius: 20px;
     font-size: 18px;
+}
+.signup button a{
+    color: #1F1F1F;
 }
 
 /* header part ended */
@@ -125,6 +145,15 @@ body{
     border-radius: 50%;
     background-color: #1F1F1F;
 }
+.library-1{
+    height: 287px;
+    overflow: hidden;
+    width: 420px;
+}
+.library-1:hover{
+    overflow-y:auto;
+    width: 420px;
+}
 .library1{
     margin: 10px;
     width: 410px;
@@ -163,7 +192,7 @@ body{
     color: #F1FFFF;
     background-color: #1F1F1F;
     border-radius: 10px;
-    padding: 15px 18px;
+    padding: 15px 18px 30px 18px;
     font-size: 20px;   
 }
 .library2 h4{
@@ -234,10 +263,16 @@ body{
     background-color: #212121;
     width: 80%;
     height: 580px;
-    overflow-y: scroll;
-    padding: 15px 20px 0 30px;
+    overflow:hidden;
+    padding: 15px 25px 0 30px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+.mainpart2:hover{
+    overflow-y: scroll;
+    width: 80%;
+    padding-right: 8px;
+    
 }
 .popular{
     margin-bottom: 30px;
